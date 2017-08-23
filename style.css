@@ -1,0 +1,115 @@
+
+        html {
+            font-size: 62.5%;
+        }
+        * {
+            box-sizing: border-box;
+            font-family: "微软雅黑";
+        }
+        .form1 {
+            border: .2rem dashed #ccc;
+            width:100%;
+            text-align:center;
+            padding: .5rem 0;
+        }
+        .form1 .inp {
+            position: relative;
+            padding: .5rem 0;
+        } 
+        .form1 label {
+            height: auto;
+            position: absolute;
+            top: .5rem;
+            left: 0;
+            margin-bottom: .5rem;
+            padding: .5rem 0;
+            text-align: center;       
+        }
+        .form1 input {
+            height: auto;
+            padding: .5rem 1.5rem;
+            text-align: left;
+
+        }
+        .form1 .inp2 {
+            height: auto;
+            overflow: auto;
+        }
+        .form1 .inp2 input{
+            float: right;
+            margin-right: 1%;
+        }
+        .form1 .inp3 .search_site_btn{
+            position: absolute;
+            right: 1%;
+            top: .5rem;
+            width: 30%;
+            text-align: center;
+        }
+        .curpoi {
+            cursor: pointer;
+        }
+        h1 {
+            text-align: center;
+        }
+        #list table {
+             width:100%;
+             border-collapse: collapse;
+        }
+        #list tr {
+            width: 100%;
+        }
+        #list td {
+            padding: 1rem .2rem;
+            text-align: center;
+            border: .1rem #ccc solid;
+            word-break:break-all;
+            text-overflow:ellipsis;
+
+        }
+        #list .td1 {
+            width: 20%;
+        }
+        #list .td2 {
+            width: 60%; 
+        }
+        #list .td3 {
+            width: 20%;
+        }
+        p {
+            text-align: left;
+            padding: .5rem;
+            font-size: 1.4rem;
+        }
+        @media screen and (min-width: 414px) {
+            .form1 label {
+                width: 20%; 
+            }
+            .form1 .inp1 input{
+                width: 78%;
+                margin-left: 20%;
+            }
+            .form1 .inp3 .search_site{
+                width: 50%;
+                margin: 0 30% 0 21%;
+            }
+        }
+        @media screen and (max-width: 413px) {
+            .form1 label {
+                width: 25%; 
+            }
+            .form1 .inp1 input{
+                width: 73%;
+                margin-left: 25%;
+            }
+            .form1 .inp3 .search_site{
+                width: 44%;
+                margin: 0 30% 0 26%;
+            }
+         /*   *{
+                font-size: 1.2rem;
+            }
+            h1{
+                font-size: 1.8rem;
+            }*/
+        }

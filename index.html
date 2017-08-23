@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+    <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML5_LocalStorage</title>  
+    <link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+    <h1>LocalStorage</h1>
+    <div class="form1" >     
+        <div class="inp inp1">
+            <label for="sitename">网站名：</label>  
+            <input type="text" id="sitename" name="sitename" class="text"/>  
+        </div>
+        <div class="inp inp1">
+            <label for="siteurl">网&nbsp;&nbsp;址：</label>  
+            <input type="text" id="siteurl" name="siteurl"/>  
+        </div>
+        <div class="inp inp2">
+            <input type="button" onclick="del()" value="清空记录"/>  
+            <input type="button" onclick="save()" value="新增记录"/>  
+        </div>
+        <hr/>  
+        <div class="inp inp3">
+
+            <label for="search_phone">输入网站名：</label>  
+            <input type="text" class="search_site" id="searchsite" name="searchsites" list="searchsites" /> 
+            <datalist id="searchsites">
+              <!-- <option value="Internet Explorer"> -->
+            </datalist>
+            <input type="button" class="search_site_btn" id="search_site_btn" onclick="find()" value="查找网站"/> 
+            <input type="hidden" class="search_site" id="site"/> 
+        </div> 
+        <p id="find_result"><br/></p>  
+    </div>  
+    <br/>  
+    <div id="list">  
+    </div>  
+    <script src="js.js"></script>
+</body>  
+</html>
