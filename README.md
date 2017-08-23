@@ -1,0 +1,2 @@
+# html5_localstorage
+html5_localstorage本地存储
